@@ -27,6 +27,7 @@ fourthOne.querySelector('.button4').innerText =
 
 document.querySelector('.button4').addEventListener('click', function () {
 	document.getElementById('demo4').innerHTML = 'YOU ARE CORRECT!';
+	addScore();
 });
 
 const fifthOne = document.querySelector('.grid-triviaCards');
@@ -35,6 +36,7 @@ fifthOne.querySelector('.button5').innerText =
 
 document.querySelector('.button5').addEventListener('click', function () {
 	document.getElementById('demo5').innerHTML = 'YOU ARE CORRECT!';
+	addScore();
 });
 
 const sixthOne = document.querySelector('.grid-triviaCards');
@@ -43,6 +45,7 @@ sixthOne.querySelector('.button6').innerText =
 
 document.querySelector('.button6').addEventListener('click', function () {
 	document.getElementById('demo6').innerHTML = 'YOU ARE CORRECT!';
+	addScore();
 });
 
 const seventhOne = document.querySelector('.grid-triviaCards');
@@ -51,6 +54,7 @@ seventhOne.querySelector('.button7').innerText =
 
 document.querySelector('.button7').addEventListener('click', function () {
 	document.getElementById('demo7').innerHTML = 'YOU ARE CORRECT!';
+	addScore();
 });
 
 const eighthOne = document.querySelector('.grid-triviaCards');
@@ -59,6 +63,7 @@ eighthOne.querySelector('.button8').innerText =
 
 document.querySelector('.button8').addEventListener('click', function () {
 	document.getElementById('demo8').innerHTML = 'YOU ARE CORRECT!';
+	addScore();
 });
 
 const ninthOne = document.querySelector('.grid-triviaCards');
@@ -67,4 +72,17 @@ ninthOne.querySelector('.button9').innerText =
 
 document.querySelector('.button9').addEventListener('click', function () {
 	document.getElementById('demo9').innerHTML = 'YOU ARE CORRECT!';
+	addScore();
 });
+
+let score = 0;
+
+const newNew = document.createElement('span');
+newNew.innerHTML = score;
+
+document.querySelector('#containerBoard').appendChild(newNew);
+
+function addScore() {
+	score++;
+	newNew.innerHTML = score;
+}
