@@ -1,0 +1,61 @@
+h1,
+h2,
+h3 {
+	text-align: center;
+	font: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: black;
+	margin: center;
+	padding: 50px;
+	padding: 10px;
+	text-emphasis: bold;
+}
+
+form {
+	text-align: center;
+	font: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: black;
+	margin: center;
+	background-color: rgb(rgb(8, 94, 71), green, blue);
+	padding: 50px;
+	padding: 10px;
+	text-emphasis: bold;
+	border: none;
+}
+
+.button {
+	background-color: rgb(rgb(8, 94, 71), green, blue);
+}
+
+body {
+	border-radius: 95px;
+	/* width: 100px; */
+	height: 30px;
+	padding: 25px;
+	padding: 7px;
+	color: rgb(243, 243, 247);
+	background-color: rgb(61, 61, 61);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttons {
+	border-radius: 95px;
+	/* width: 100px; */
+	height: 30px;
+	padding: 25px;
+	color: rgb(243, 243, 247);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	/* position: -webkit-sticky;
+	position: sticky;
+	top: 25px; */
+	background-color: rgba(21, 21, 21, 0.927);
+	margin: 30px;
+}
+
+.grid-triviaCards {
+	display: grid;
+	grid-template-columns: repeat(3, 2fr);
+
+	justify-content: space-between;
+}
