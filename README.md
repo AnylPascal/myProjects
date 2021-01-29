@@ -10,15 +10,9 @@ Project Description
 
 ---
 
-My app is Fact or Falsehood : Self-Scoring Trivia Game. Its a trivia game application that allows users to learn more important facts or very elaborate falsehoods. Users will be presented a set of information with a short fact or falsehood that they can either agree with a disagree with. Once ready users will check the corresponding box with their answers and submit their total log. Once complete the computer will return the users total score. Engaging the user and teaching them all at once! as users play along to a short but very entertaining trivia app! that is anything but trivial!
+My app is Not Trivial Triva : Self-Scoring Trivia Game. Its a trivia game application that allows users to learn more important facts or very elaborate falsehoods. Users will be presented a set of information with a short fact or falsehood that they can either agree with a disagree with. Once ready users will check the corresponding box with their answers and submit their total log. Once complete the computer will return the users total score. Engaging the user and teaching them all at once! as users play along to a short but very entertaining trivia app! that is anything but trivial!
 
-**Wire Frames**
 
----
-
-[Imgur](https://imgur.com/4fo8UoJ)
-
-[Imgur](https://imgur.com/G9HECu8)
 
 **User Stories**
 
